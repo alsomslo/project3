@@ -208,6 +208,16 @@ h2 {
     color: #fff;
 }
 
+.sec .inner .img_box {
+    background: #00A5E5;
+    transition: 1s;
+}
+
+.sec .inner .img_box:hover img {
+    transition: 1s;
+    opacity: 0.5
+}
+
 
 /* section02 */
 
