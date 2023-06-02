@@ -1,0 +1,45 @@
+.sec {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 150px 15px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+
+.sec .inner {
+    display: flex;
+
+
+
+}
+
+
+
+.sec .inner figure {
+    position: relative;
+    flex: 1;
+}
+
+.sec .cover {
+    position: absolute;
+    top: 60%;
+    margin: 0 0 0 30px;
+}
+
+.sec .cover h3 {
+    margin: 0 0 50px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.sec .cover p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}

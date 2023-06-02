@@ -1,0 +1,96 @@
+.slick-track,
+.slick-list {
+    transition-delay: 30ms;
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    color: #fff;
+}
+
+.header.on {
+    background: #fff;
+    transition: 0.5s;
+}
+
+.header .inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    height: 100px;
+    line-height: 100px;
+    transition: 0.5s;
+}
+
+.header.on .inner {
+    height: 100px;
+    color: #333;
+}
+
+.header a {
+    display: block;
+
+}
+
+
+.header .gnb {
+    margin: 0 auto;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 40px;
+}
+
+
+.header .search {
+    margin: 0 0 0 50px;
+}
+
+
+
+
+
+
+.header .search input[type="text"] {
+    width: 100px;
+    border: none;
+    outline: none;
+    border: 1px solid #666;
+    border-radius: 10px;
+    background: transparent;
+    text-align: center;
+
+    font-size: 14px;
+    font-family: 'Noto Sans KR';
+    transition: width 0.5s;
+
+}
+
+.header .search input[type="text"]:focus {
+    width: 160px;
+
+}
+
+.header .search input[type="text"]::placeholder {
+    color: #ddd;
+}
+
+.header .search input[type="text"]:focus::placeholder {
+    color: transparent;
+}
+
+.header .search button {
+    border: none;
+    outline: none;
+    background: transparent;
+    vertical-align: middle;
+    font-size: 20px;
+}
